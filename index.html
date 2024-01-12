@@ -1,196 +1,230 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Yummy</title>
-    <link rel="stylesheet"
-        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <header class="header d-flex fixed-top align-items-center">
-        <div
-            class="container d-flex align-items-center justify-content-between">
-            <a class="navbar-brand" href="#">
-                <h1>Yummy<span class="text-red">.</span></h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-                data-target="#navbarNav" aria-controls="navbarNav"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home<span
-                                    class="sr-only">(текущая)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#About">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Menu</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Chefs</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#"
-                                id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu"
-                                aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Действие</a>
-                                <a class="dropdown-item" href="#">Другое
-                                    действие</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Что-то еще
-                                    здесь</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
+      <div class="container d-flex align-items-center justify-content-between">
+        <!-- TODO: can not be a block element inside of inline element -->
+        <a class="navbar-brand" href="#">
+          <h1>Yummy<span class="text-red">.</span></h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home<span class="sr-only">(текущая)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chefs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Действие</a>
+                  <a class="dropdown-item" href="#">Другое действие</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Что-то еще здесь</a>
                 </div>
-            </nav>
-            <a href="" class="btn-book-a-table">Book a table</a>
-        </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <a href="" class="btn-book-a-table">Book a table</a>
+      </div>
     </header>
     <main>
-        <section class="intro">
-            <div class="container aos-inite aos-animate" data-aos="fade-up">
-                <div class="row justify-content-between">
-                    <div
-                        class="col-lg-5 d-flex align-item-lg-start flex-column justify-content-center">
-                        <h2 data-aos="fade-up" class="aos-init aos-animate">
-                            Enjoy Your Healthy
-                            <br>Delicious Food
-                        </h2>
-                        <p data-aos="fade-up" data-aos-delay="100"
-                            class="aos-init aos-animate">Sed
-                            autem laudantium dolores. Voluptatem itaque ea
-                            consequatur eveniet. Eum quas
-                            beatae cumque eum quaerat.</p>
-                        <div class="d-flex aos-init aos-animate"
-                            data-aos="fade-up" data-aos-delay="200">
-                            <a href="#book-a-table"
-                                class="btn-book-a-table">Book a Table</a>
-                            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
-                                class="glightbox btn-watch-video d-flex align-items-center"><i
-                                    class="bi bi-play-circle"></i><span>Watch
-                                    Video</span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png"
-                            class="img-fluid aos-init aos-animate" alt
-                            data-aos="zoom-out" data-aos-delay="300">
-                    </div>
-                </div>
+      <section class="intro">
+        <div class="container aos-inite aos-animate" data-aos="fade-up">
+          <div class="row justify-content-between">
+            <div
+              class="col-lg-5 d-flex align-item-lg-start flex-column justify-content-center"
+            >
+              <!-- TODO: use max-width instead of br -->
+              <h2 data-aos="fade-up" class="aos-init aos-animate">
+                Enjoy Your Healthy
+                <br />Delicious Food
+              </h2>
+              <p
+                class="intro-discription aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                Sed autem laudantium dolores. Voluptatem itaque ea consequatur
+                eveniet. Eum quas beatae cumque eum quaerat.
+              </p>
+              <div
+                class="d-flex aos-init aos-animate"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <a href="#book-a-table" class="btn-book-a-table"
+                  >Book a Table</a
+                >
+                <a
+                  href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                  class="glightbox btn-watch-video d-flex align-items-center"
+                  ><i class="bi bi-play-circle"></i><span>Watch Video</span></a
+                >
+              </div>
             </div>
-        </section>
-        <section class="about" id="About">
-            <div class="container aos-inite aos-animate" data-aos="fade-up">
-                <div class="section-header">
-                    <h2>About us</h2>
-                    <p>Learn More <span>About Us</span></p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-7 position-relative about-img aos-init aos-animate"
-                        style="background-image: url(./images/about-img.jpg) ;"
-                        data-aos="fade-up" data-aos-delay="150">
-                        <div class="call-us position-absolute">
-                            <h4>Book a Table</h4>
-                            <p>+1 5589 55488 55</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 pd-left-40 aos-inite aos-animate"
-                        data-aos="fade-up" data-aos-delay="300">
-                        <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing
-                                elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check2-all"></i>
-                                    Ullamco laboris nisi ut aliquip ex ea
-                                    commodo
-                                    consequat.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check2-all"></i>
-                                    Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.
-                                </li>
-                                <li>
-                                    <i class="bi bi-check2-all"></i>
-                                    Ullamco laboris nisi ut aliquip ex ea
-                                    commodo
-                                    consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat
-                                    nulla pariatur.
-                                </li>
-                            </ul>
-                            <div class="position-relative mt-20">
-                                <img src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about-2.jpg"
-                                    class="img-fluid" alt="">
-                                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz"
-                                    class="play-btn"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-5">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/hero-img.png"
+                class="img-fluid aos-init aos-animate"
+                alt
+                data-aos="zoom-out"
+                data-aos-delay="300"
+              />
             </div>
-        </section>
-        <section class="why-us" id="Why-us">
-            <div class="container aos-inite aos-animate" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-4 aos-inite aos-animate"
-                        data-aos="fade-up" data-aos-delay="100">
-                        <div class="why-box">
-                            <h3>Why Choose Yummy?</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.
-                                Duis aute irure dolor in
-                                reprehenderit
-                                Asperiores dolores sed et. Tenetur quia eos.
-                                Autem tempore quibusdam vel
-                                necessitatibus optio ad corporis.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="About">
+        <div class="container aos-inite aos-animate" data-aos="fade-up">
+          <div class="section-header">
+            <h2>About us</h2>
+            <p>Learn More <span>About Us</span></p>
+          </div>
+          <div class="row">
+            <!-- TODO: use css for styles only -->
+            <div
+              class="col-lg-7 position-relative about-img aos-init aos-animate"
+              style="background-image: url(./images/about-img.jpg)"
+              data-aos="fade-up"
+              data-aos-delay="150"
+            >
+              <div class="call-us position-absolute">
+                <h4>Book a Table</h4>
+                <!-- TODO: use link for phone numbers and e-mails -->
+                <p>+1 5589 55488 55</p>
+              </div>
             </div>
-        </section>
+            <div
+              class="col-lg-5 pd-left-40 aos-inite aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <ul>
+                  <li>
+                    <i class="bi bi-check2-all"></i>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </li>
+                  <li>
+                    <i class="bi bi-check2-all"></i>
+                    Duis aute irure dolor in reprehenderit in voluptate velit.
+                  </li>
+                  <li>
+                    <i class="bi bi-check2-all"></i>
+                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate trideta
+                    storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                  </li>
+                </ul>
+                <div class="position-relative mt-20">
+                  <img
+                    src="https://bootstrapmade.com/demo/templates/Yummy/assets/img/about-2.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <a
+                    href="https://www.youtube.com/watch?v=LXb3EKWsInQ&ab_channel=Jacob%2BKatieSchwarz"
+                    class="play-btn"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="why-us" id="Why-us">
+        <div class="container aos-inite aos-animate" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-4 aos-inite aos-animate"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="why-box bg-danger text-white">
+                <h3>Why Choose Yummy?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis aute irure dolor in reprehenderit Asperiores dolores sed
+                  et. Tenetur quia eos. Autem tempore quibusdam vel
+                  necessitatibus optio ad corporis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!-- TODO: implement when footer is placed on the bottom in case if content is empty -->
+    <footer>Footer is going to be here</footer>
 
     <!-- JavaScript Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init()
     </script>
-</body>
-
+  </body>
 </html>

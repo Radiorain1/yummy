@@ -1,0 +1,12 @@
+:root {
+  --color-white: #fff;
+  --color-danger: #ce1212;
+}
+
+.text-white {
+  color: var(--color-white) !important;
+}
+
+.bg-danger {
+  background-color: var(--color-danger) !important;
+}

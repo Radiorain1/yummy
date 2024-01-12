@@ -1,25 +1,28 @@
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Inter-Regular'),
-        url(../fonts/Inter-Regular.woff2) format('woff2');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inter-Regular'), url(../fonts/Inter-Regular.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Inter-Bold'),
-        url(../fonts/Inter-Bold.woff2) format('woff2');
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inter-Bold'), url(../fonts/Inter-Bold.woff2) format('woff2');
 }
 
 @font-face {
-    font-family: "Amatic SC";
-    src: url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.eot");
-    src: url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.eot?#iefix")format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.woff2")format("woff2"),
-        url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.woff")format("woff"),
-        url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.ttf")format("truetype"),
-        url("https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.svg#Amatic SC")format("svg");
+  font-family: 'Amatic SC';
+  src: url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.eot');
+  src: url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.eot?#iefix')
+      format('embedded-opentype'),
+    url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.woff2')
+      format('woff2'),
+    url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.woff')
+      format('woff'),
+    url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.ttf')
+      format('truetype'),
+    url('https://db.onlinewebfonts.com/t/052f91ce17c4873f3dec6d746a72a90a.svg#Amatic SC')
+      format('svg');
 }
