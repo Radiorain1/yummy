@@ -1,0 +1,59 @@
+.d-flex {
+    display: flex !important;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.align-item-center {
+    align-items: center;
+}
+
+.text-red {
+    color: #ce1212;
+}
+
+.align-item-lg-start {
+    align-items: flex-start;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.position-relative {
+    position: relative !important;
+}
+
+.align-item-end {
+    align-items: flex-end;
+}
+
+.pd-left-40 {
+    padding-left: 40px;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

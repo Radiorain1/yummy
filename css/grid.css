@@ -1,0 +1,36 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+section+section {
+    margin-top: 80px;
+}

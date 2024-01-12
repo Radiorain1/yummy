@@ -1,0 +1,58 @@
+html,
+body {
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #37373f;
+    font-family: 'Amatic SC';
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-header h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: #7f7f90;
+    text-transform: uppercase;
+    font-family: 'Inter';
+}
+
+.section-header p {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Amatic SC';
+}
+
+.section-header p span {
+    color: #ce1212;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: 'Inter';
+}
+
+.about .call-us p {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ce1212;
+}

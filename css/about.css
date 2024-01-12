@@ -1,0 +1,39 @@
+.section-header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.about .about-img {
+    min-height: 500px;
+}
+
+.about ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.call-us {
+    background-color: #fff;
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+    text-align: center;
+}
+
+.about ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: #ce1212;
+}
+
+.about ul li {
+    position: relative;
+    padding: 0 0 8px 26px;
+}
