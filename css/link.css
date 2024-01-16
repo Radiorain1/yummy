@@ -1,0 +1,16 @@
+.link {
+  text-decoration: none;
+  color: var(--color-dark);
+  transition: all 0.3s ease-in-out;
+  user-select: none;
+}
+
+.link:hover {
+  color: var(--color-danger);
+  text-decoration: none;
+}
+
+.link-xl {
+  font-size: 28px;
+  font-weight: 700;
+}

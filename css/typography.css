@@ -1,32 +1,21 @@
-/* TODO: move to common */
-/* TODO: move common props to seletor (use basic props only like in BS) */
-/* margin-bottom: 0.5rem;
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.2;
-    color: inherit; */
 h1,
+h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-weight: 700;
+  margin: 0;
+  letter-spacing: 1px;
+  color: inherit;
 }
 
 h1 {
   font-size: 64px;
-  color: var(--color-grey);
-  font-family: 'Amatic SC';
 }
 
-/* TODO: remove uniq classes */
 h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-  color: var(--color-lighr-grey);
-  text-transform: uppercase;
-  font-family: 'Inter';
+  font-size: 48px;
 }
 
 h3 {
@@ -35,4 +24,16 @@ h3 {
 
 h4 {
   font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }

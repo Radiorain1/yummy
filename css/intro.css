@@ -1,5 +1,10 @@
 .intro {
-  padding: 160px 0 60px 0;
+  padding-top: 160px;
+  padding-bottom: 60px;
+}
+
+.intro-title {
+  font-family: 'Amatic SC';
 }
 
 .intro .bi-play-circle::before {
@@ -16,19 +21,4 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-}
-
-.intro .btn-watch-video i {
-  font-size: 32px;
-  transition: 0.3s;
-  line-height: 0;
-  margin-right: 8px;
-}
-
-.intro .btn-watch-video {
-  font-size: 16px;
-  transition: 0.5s;
-  margin-left: 25px;
-  font-weight: 600;
-  text-decoration: none;
 }
