@@ -17,10 +17,6 @@
     align-items: center;
 }
 
-.text-red {
-    color: #ce1212;
-}
-
 .align-item-lg-start {
     align-items: flex-start;
 }
@@ -41,19 +37,15 @@
     align-items: flex-end;
 }
 
-.pd-left-40 {
-    padding-left: 40px;
-}
-
 .position-absolute {
     position: absolute !important;
-}
-
-.mt-20 {
-    margin-top: 20px;
 }
 
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+.with-shadow {
+    box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }

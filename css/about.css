@@ -3,16 +3,16 @@
     padding-bottom: 30px;
 }
 
-.about .about-img {
-    min-height: 500px;
+.section-header-description {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Amatic SC';
 }
 
-.about ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
+.about-img {
+    min-height: 500px;
+    background-image: url(../images/about-img.jpg);
 }
 
 .call-us {
@@ -25,15 +25,32 @@
     text-align: center;
 }
 
+.about ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
 .about ul i {
     position: absolute;
     font-size: 20px;
     left: 0;
     top: -3px;
-    color: #ce1212;
 }
 
 .about ul li {
     position: relative;
     padding: 0 0 8px 26px;
+}
+
+.tel-link {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tel-link:hover {
+    text-decoration: none;
+    color: var(--color-danger);
 }

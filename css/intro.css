@@ -1,25 +1,5 @@
 .intro {
   padding: 160px 0 60px 0;
-  background-color: #eee;
-}
-
-.intro-discription {
-  color: #4f4f5a;
-  margin-bottom: 30px;
-}
-
-.intro .btn-book-a-table {
-  font-weight: 500;
-  font-size: 14px;
-  letter-spacing: 1px;
-  display: inline-block;
-  text-decoration: none;
-  padding: 12px 36px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: #fff;
-  background-color: #ce1212;
-  box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }
 
 .intro .bi-play-circle::before {
@@ -39,7 +19,6 @@
 }
 
 .intro .btn-watch-video i {
-  color: #ce1212;
   font-size: 32px;
   transition: 0.3s;
   line-height: 0;
@@ -50,7 +29,6 @@
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: #37373f;
   font-weight: 600;
   text-decoration: none;
 }

@@ -1,12 +1,42 @@
 :root {
   --color-white: #fff;
   --color-danger: #ce1212;
+  --color-dark: #000;
+  --color-light: #eee;
+  --color-light-grey: #4f4f5a;
+  --color-grey: #37373f;
+}
+
+body,
+html,
+a {
+  color: var(--color-dark);
 }
 
 .text-white {
   color: var(--color-white) !important;
 }
 
+.text-red {
+  color: var(--color-danger) !important;
+}
+
+.text-light-grey {
+  color: var(--color-light-grey) !important;
+}
+
+.text-grey {
+  color: var(--color-grey) !important;
+}
+
 .bg-danger {
   background-color: var(--color-danger) !important;
+}
+
+.bg-light {
+  background-color: var(--color-light) !important;
+}
+
+.bg-white {
+  background-color: var(--color-white);
 }
