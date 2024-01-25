@@ -18,6 +18,18 @@
   opacity: 0.8;
 }
 
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0;
+  transition: all ease-in-out 0.4s;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: var(--color-white);
+  color: var(--color-danger);
+}
+
 .btn-sm {
   padding: 8px 20px;
 }
