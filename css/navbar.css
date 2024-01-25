@@ -32,7 +32,8 @@
   transition: all 0.3s ease-in-out;
 }
 
-.nav-link:hover:before {
+.nav-link:hover:before,
+.nav-link.active:before {
   visibility: visible;
   width: 100%;
 }
