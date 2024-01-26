@@ -38,7 +38,7 @@ main {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  color: #7f7f90;
+  color: var(--color-light-grey);
   text-transform: uppercase;
 }
 

@@ -12,10 +12,16 @@
   cursor: pointer;
   height: 100%;
   border: 0;
-  border-bottom: 2px solid #b6b6bf;
+  border-bottom: 2px solid var(--color-grey)
 }
 
+
 .menu-link.active {
+  color: var(--color-danger);
+  border-color: var(--color-danger);
+}
+
+.menu-link.active:hover {
   color: var(--color-danger);
   border-color: var(--color-danger);
 }
@@ -23,7 +29,7 @@
 .menu-link:hover {
   text-decoration: none;
   color: var(--color-danger);
-  border-color: var(--color-light-grey);
+  border-color: var(--color-light);
 }
 
 .tab-header-text {
@@ -38,30 +44,6 @@
   margin-bottom: 10px;
 }
 
-.menu .tab-content .tab-header {
+.menu .tab-header {
   padding: 40px 0;
-}
-
-.menu-item {
-  text-align-last: center;
-}
-
-.menu-img {
-  width: 250px;
-  height: 250px;
-}
-
-.menu-item-title {
-  padding: 10px 0;
-}
-
-.menu .tab-content .menu-item .ingredients {
-  color: var(--color-light-grey);
-  margin-bottom: 5px;
-}
-
-.menu .tab-content .menu-item .price {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--color-danger);
 }

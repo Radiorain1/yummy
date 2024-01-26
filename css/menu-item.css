@@ -1,0 +1,23 @@
+.menu-item {
+    text-align-last: center;
+}
+
+.menu-item-img {
+    width: 250px;
+    height: 250px;
+}
+
+.menu-item-title {
+    padding: 10px 0;
+}
+
+.menu-item-text {
+    color: var(--color-light-grey);
+    margin-bottom: 5px;
+}
+
+.menu-item-price {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-danger);
+}

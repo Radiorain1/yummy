@@ -5,6 +5,7 @@
 
 .intro-title {
   font-family: 'Amatic SC';
+  max-width: 400px;
 }
 
 .intro .bi-play-circle::before {

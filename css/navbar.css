@@ -1,6 +1,7 @@
 .navbar-brand {
   font-size: 28px;
   font-weight: 700;
+  outline: none;
 }
 
 .navbar-brand:hover {
