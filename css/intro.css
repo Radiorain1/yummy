@@ -7,19 +7,3 @@
   font-family: 'Amatic SC';
   max-width: 400px;
 }
-
-.intro .bi-play-circle::before {
-  content: '\f4f3';
-}
-
-.intro .bi::before,
-.intro [class^='bi-']::before,
-.intro [class*=' bi-']::before {
-  display: inline-block;
-  font-family: bootstrap-icons !important;
-  font-style: normal;
-  font-weight: normal !important;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-}

@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-.about ul {
+.about-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -22,14 +22,14 @@
   padding: 0;
 }
 
-.about ul i {
+.about-list i {
   position: absolute;
   font-size: 20px;
   left: 0;
   top: -3px;
 }
 
-.about ul li {
+.about-list li {
   position: relative;
   padding: 0 0 8px 26px;
 }

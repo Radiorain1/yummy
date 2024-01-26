@@ -1,0 +1,15 @@
+.tab-header-text {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--color-light-grey);
+  margin-bottom: 0;
+}
+
+.tab-header-title {
+  color: var(--color-danger);
+  margin-bottom: 10px;
+}
+
+.tab-header {
+  padding: 40px 0;
+}
