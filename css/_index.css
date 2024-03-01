@@ -11,6 +11,7 @@
 @import './about.css';
 @import './why-us.css';
 @import './stats-counter.css';
+@import './utils.css';
 @import './menu.css';
 @import './card.css';
 @import './menu-item.css';
@@ -18,3 +19,4 @@
 @import './testimonials.css';
 @import './swiper.css';
 @import './scroll-top.css';
+@import './events.css';

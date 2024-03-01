@@ -1,0 +1,43 @@
+.events .container-fluid {
+    padding: 0;
+}
+
+.event-item {
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    padding: 30px;
+}
+
+.event-item:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+}
+
+.event-title {
+    margin-bottom: 5px;
+    color: var(--color-white);
+    position: relative;
+}
+
+.event-price {
+    color: var(--color-white);
+    border-bottom: 2px solid var(--color-danger);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.event-description {
+    margin-bottom: 0;
+    color: rgba(255, 255, 255, 0.9);
+    position: relative;
+}
+
+.events .swiper-pagination {
+    margin-top: 40px;
+    position: relative;
+}
