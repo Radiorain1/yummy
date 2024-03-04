@@ -9,6 +9,12 @@
     padding: 30px;
 }
 
+.events .event-item:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    inset: 0;
+}
 
 .event-title {
     margin-bottom: 5px;
