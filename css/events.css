@@ -19,6 +19,10 @@
 .event-title {
     margin-bottom: 5px;
     color: var(--color-white);
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     position: relative;
 }
 
@@ -35,6 +39,10 @@
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.9);
     position: relative;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .events .swiper-pagination {
