@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   new Swiper('.slides-3', {
     speed: 600,
-    loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
@@ -74,7 +73,6 @@ document.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 1,
         spaceBetween: 40,
       },
-
       1200: {
         slidesPerView: 3,
         spaceBetween: 1,
