@@ -1,0 +1,14 @@
+.form-control {
+  padding: 12px 15px;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.form-control::placeholder {
+  color: var(--color-light-grey);
+}
+
+input[type='date']::-webkit-datetime-edit,
+input[type='time']::-webkit-datetime-edit {
+  color: var(--color-light-grey);
+}

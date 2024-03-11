@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
     },
   })
 
-
   /**
    * Gallery Slider
    */
