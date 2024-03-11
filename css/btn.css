@@ -34,6 +34,11 @@
   padding: 8px 20px;
 }
 
+.btn-lg {
+  padding: 14px 60px;
+  font-size: inherit;
+}
+
 .btn-shadow {
   box-shadow: 0 8px 28px rgba(206, 18, 18, 0.2);
 }

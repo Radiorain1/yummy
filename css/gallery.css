@@ -1,0 +1,33 @@
+.gallery {
+  padding: 80px 0;
+  scroll-margin-top: 120px;
+}
+
+.swiper-gallery {
+  overflow: hidden;
+}
+
+.swiper-gallery .swiper-slide {
+  flex-shrink: 0;
+  width: 243.2px;
+  margin-right: 20px;
+}
+
+.gallery .swiper-wrapper {
+  padding: 40px 0;
+}
+
+.gallery .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .gallery .swiper-slide-active {
+    border: 6px solid var(--color-danger);
+    padding: 4px;
+    background: #fff;
+    z-index: 1;
+    transform: scale(1.2);
+  }
+}

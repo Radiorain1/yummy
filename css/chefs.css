@@ -1,5 +1,6 @@
 .chefs {
   padding: 80px 0;
+  scroll-margin-top: 60px;
 }
 
 .chef-card {
@@ -27,7 +28,7 @@
 
 .chef-card-img:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: -2px;
   height: 100%;

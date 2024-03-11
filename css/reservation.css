@@ -1,0 +1,32 @@
+.reservation {
+  scroll-margin-top: 110px;
+}
+
+.reservation-img {
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation-form-bg {
+  background-color: rgba(55, 55, 63, 0.04);
+}
+
+.reservation-form {
+  padding: 40px;
+}
+
+.reservation-form input {
+  padding: 12px 15px;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.reservation-form input::placeholder {
+  color: var(--color-light-grey);
+}
+
+.reservation-form textarea::placeholder {
+  color: var(--color-light-grey);
+}
