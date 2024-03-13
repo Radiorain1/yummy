@@ -11,11 +11,12 @@
 }
 
 .btn-primary:hover,
-.btn-primary:focus {
-  color: var(--color-white);
-  background-color: var(--color-danger);
-  border-color: var(--color-danger);
-  opacity: 0.8;
+.btn-primary:focus,
+.btn-primary:active {
+  color: var(--color-white) !important;
+  background-color: var(--color-danger) !important;
+  border-color: var(--color-danger) !important;
+  opacity: 0.8 !important;
 }
 
 .btn-secondary {

@@ -8,7 +8,12 @@
   color: var(--color-light-grey);
 }
 
-input[type='date']::-webkit-datetime-edit,
-input[type='time']::-webkit-datetime-edit {
+input[type="date"]::-webkit-datetime-edit,
+input[type="time"]::-webkit-datetime-edit {
   color: var(--color-light-grey);
+}
+
+.form-control:focus {
+  border-color: var(--color-danger);
+  box-shadow: none;
 }
